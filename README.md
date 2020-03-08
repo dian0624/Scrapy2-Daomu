@@ -15,7 +15,6 @@
   
 2.Mongodb、MySQL
 
-   1.在**settings**中定義數據庫連接變量，設置**ITEM_PIPELINES**連接對象。
-   
-   2.在**pipelines**根據不同數據庫創建相對應的類，並從**settings中獲取變量的值，創建數據庫連接對象與數據庫連接寫入資料**。
+在**settings**中定義數據庫連接變量，設置**ITEM_PIPELINES**連接對象。   
+並在**pipelines**根據不同數據庫創建相對應的類，從**settings中獲取變量的值，創建數據庫連接對象與數據庫連接寫入資料**。
 
